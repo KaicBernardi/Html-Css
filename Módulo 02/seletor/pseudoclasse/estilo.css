@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.548), black);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-h {
+    margin-left: 500px;
+    background-color: rgba(0, 0, 0, 0.548), black;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+#menu-h ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(30, 30, 31);
+}
+#menu-h ul li:last-child a:hover {
+    background-color:rgba(0, 0, 0, 0.404);
+}
