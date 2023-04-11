@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+}
+#top {
+    position: relative;
+    height: 240px;
+    width: 100%;
+    background-color: black;
+}
+h1 {
+    position: absolute;
+    margin-left: 120px;
+    text-align: center;
+    font-size: 4.5rem;
+    color: white;
+}
+#top-p {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 45%;
+    font-size: 20px;
+} 
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+}
+#branco {
+    position: relative;
+    height: 500px;
+}
+#brancop {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 250px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 150px;
+}
+#flor {
+    height: 500px;
+    /* Shorthand - background
+        color - image - position - / - size - repeat - attachment 
+    */
+    background: rgb(61, 60, 60) url(imagens/background001.jpg) center no-repeat fixed;
+}
+#flor-caixa {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 60px;
+    background-color: rgb(51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    width: 300px;
+}
+#flor-p {
+    color: white;
+    width: 300px;
+    text-align: left;
+    
+}
+#branco2 {
+    position: relative;
+    margin-top: 70px;
+    height: 400px;
+    width: 400px;
+}
+#p-branco2 {
+    margin-left: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 250px;
+}
+#pagina {
+    margin-top: 60px;
+    height: 500px;
+    background: rgb(61, 60, 60) url(imagens/background002.jpg) center no-repeat fixed;
+}
+#transparente {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 60px;
+    background-color: rgb(51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.212);
+    color: white;
+    height: 350px;
+    width: 300px;
+    text-align: left;
+}
+#branco3 {
+    margin-top: 30px;
+    position: relative;
+    margin-left: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 250px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
