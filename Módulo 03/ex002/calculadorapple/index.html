@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+        background-color: rgba(0, 0, 0, 0.486);
+        }
+        h1 {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.575);
+            color: white;
+            width: 40vh;
+            font-family: cursive;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+            margin-top: 70px;
+            margin-left: 250px;
+        }
+        #container {
+            background-color: black;
+            width: 400px;
+            height: 600px;
+            position: absolute;
+            margin-top: 15%;
+            margin-left: 30%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+            #resultado {
+            text-align: right;
+            width: 400px;
+            height: 140px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 6em;
+            margin-left: 330px;
+            display: inline;
+        }
+
+        .grey {
+            background-color: rgb(184, 182, 182);
+            color: black;
+            border-radius: 100px;
+            width: 80px;
+            height: 80px;
+            font-size: 1.5em;
+        }
+        .grey:hover {
+            background-color: white;
+            transition: .6s;
+        }
+        .yellow {
+            width: 80px;
+            height: 80px;
+            border-radius: 100px;
+            background-color: rgb(255, 166, 0);
+            color: white;
+            font-size: 1.5em;
+        }
+        .yellow:hover {
+            background-color: white;
+            color: orange;
+            transition: .6s;
+        }
+        td > input {
+            display: inline;
+            width: 80px;
+            height: 80px;
+            margin-top: 9px;
+            margin-left: 12px;
+            
+            font-size: 1.5em;
+            text-align: center;
+            border-style: none;
+            border-radius: 100px;
+            color: white;
+            background-color: rgb(59, 59, 59);
+            align-items: center;
+        }
+        input:hover {
+            background-color: grey;
+            transition: .6s;
+        }
+
+        footer {
+            position: absolute;
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.521);
+            margin-top: 71vh;
+            margin-left: 251px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1>Calculadora Apple:</h1>
+
+            <section id="container">
+            <div id="resultado">
+                0
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" value="AC" class="grey">
+                        </td>
+                    <td>
+                        <input type="button" value="+/-" class="grey">
+                        </td>
+                    <td>
+                        <input type="button" value="%" class="grey">
+                    </td>
+                    <td>
+                        <input type="button" value="/" class="yellow">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7">
+                    </td>
+                    <td>
+                        <input type="button" value="8">
+                    </td>
+                    <td>
+                        <input type="button" value="9">
+                    </td>
+                    <td>
+                        <input type="button" value="x" class="yellow">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4">
+                    </td>
+                    <td>
+                        <input type="button" value="5">
+                    </td>
+                    <td>
+                        <input type="button" value="6">
+                    </td>
+                    <td>
+                        <input type="button" value="-" class="yellow">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1">
+                    </td>
+                    <td>
+                        <input type="button" value="2">
+                    </td>
+                    <td>
+                        <input type="button" value="3">
+                    </td>
+                    <td>
+                        <input type="button" value="+" class="yellow">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="null">
+                        <input type="button" value="0" style="width: 180px;">
+                    </td>
+                    <td>
+                        <input type="button" value=",">
+                    </td>
+                    <td>
+                        <input type="button" value="=" class="yellow">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <footer>Criado por Kaic Bernardi</footer>
+    </main>
+
+</body>
+</html>
